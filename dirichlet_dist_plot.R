@@ -16,6 +16,9 @@ dr = DR_data(diri) ## for visualization, make this a DirichletRegData object
 plot(dr) 
 
 
-diri = rdirichlet(100, alpha = c(10,10,10)) 
+diri = rdirichlet(100, alpha = c(1,1,1)) 
 dr = DR_data(diri) 
 plot(dr) 
+
+
+
